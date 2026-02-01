@@ -1,9 +1,8 @@
-import { headers } from "next/headers";
 import Desktop from "./Desktop";
 
 export default function Navbar() {
   return (
-    <header>
+    <header className="">
       <section className="bg-primary-dark text-neutral-white flex justify-between items-center py-5 px-7 w-full ">
         <div className="flex gap-4 items-center">
           <img src="header-logo.PNG" alt="" className="object-contain size-8" />
