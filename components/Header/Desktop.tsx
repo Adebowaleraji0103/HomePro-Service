@@ -3,7 +3,7 @@ import { Logo } from "@/app/card";
 
 export default function Desktop() {
   return (
-    <section className="hidden lg:flex justify-between items-center ">
+    <section className="hidden lg:flex justify-between items-center px-10">
       <div>
         {Logo.map((card, index) => (
           <div key={index} className="flex gap-4 items-center">
@@ -14,7 +14,7 @@ export default function Desktop() {
       </div>
       <div className="flex gap-10">
         {NavLink.map((card, index) => (
-          <div key={index} className=" gap-7 flex ">
+          <div key={index}>
             <a href={card.href}>{card.label}</a>
           </div>
         ))}
