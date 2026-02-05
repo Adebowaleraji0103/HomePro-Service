@@ -31,6 +31,7 @@
   --font-mono: var(--font-geist-mono);
   --color-primary-dark: var(--primary-dark-blue-1);
   --color-neutral-white: var(--neutral-white);
+  --bg-system-red: var(--system-red);
 
   --font-sans: var(--font-plus-jakarta);
 }
