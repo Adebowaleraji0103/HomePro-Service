@@ -3,7 +3,7 @@ import { Logo } from "@/app/card";
 
 export default function Desktop() {
   return (
-    <section className="hidden lg:flex justify-between items-center px-10">
+    <section className="hidden lg:flex justify-between items-center">
       <div>
         {Logo.map((card, index) => (
           <div key={index} className="flex gap-4 items-center">
