@@ -21,7 +21,7 @@
   --shade-of-blue-1: #5dcbfb;
   --shade-of-blue-2: #e8f7fe;
 
-  --font-san:var(--font-san);
+  --font-san: var(--font-san);
 }
 
 @theme inline {
@@ -32,7 +32,7 @@
   --color-primary-dark: var(--primary-dark-blue-1);
   --color-neutral-white: var(--neutral-white);
 
-    --font-sans: var(--font-plus-jakarta);
+  --font-sans: var(--font-plus-jakarta);
 }
 /*   
       fontFamily: {
@@ -120,8 +120,11 @@ body {
   color: var(--foreground);
   font-family: var(--font-san);
 }
-h1{
+h1 {
   font-size: 30px;
   font-weight: 500;
-  
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
 }
