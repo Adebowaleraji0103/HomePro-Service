@@ -19,8 +19,8 @@ export default function Desktop() {
           </div>
         ))}
       </div>
-      <div className="flex gap-3">
-        <p className="w-5 h-5 rounded-full bg-[#FF5E5E]"></p>
+      <div className="flex gap-3 items-center">
+        <p className="w-4 h-4 rounded-full bg-[#FF5E5E]"></p>
         <p>24 Hour Services</p>
       </div>
     </section>
