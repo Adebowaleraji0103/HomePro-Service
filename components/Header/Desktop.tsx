@@ -12,7 +12,7 @@ export default function Desktop() {
           </div>
         ))}
       </div>
-      <div>
+      <div className="flex gap-10">
         {NavLink.map((card, index) => (
           <div key={index} className=" gap-7 flex ">
             <a href={card.href}>{card.label}</a>
