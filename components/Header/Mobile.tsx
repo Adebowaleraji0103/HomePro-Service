@@ -10,7 +10,7 @@ export default function Mobile() {
       {Logo.map((card, index) => (
         <div key={index}>
           <img src={card.image} alt="" />
-          <p> {card.name}</p>
+          <h1> {card.name}</h1>
         </div>
       ))}
       <img src="menu.PNG" alt="" className="object-contain size-8 lg:hidden" />
