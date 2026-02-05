@@ -1,6 +1,6 @@
 export const Logo = [
   {
-    image: "header-logo.png",
+    image: "public\header-logo.png",
     name: "HomePro",
   },
 ];
