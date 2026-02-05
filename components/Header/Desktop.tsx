@@ -14,12 +14,12 @@ export default function Desktop() {
       </div>
       <div>
         {NavLink.map((card, index) => (
-          <div key={index} className=" gap-7">
+          <div key={index} className=" gap-7 flex ">
             <a href={card.href}>{card.label}</a>
           </div>
         ))}
       </div>
-      <div>
+      <div className="flex gap-3">
         <p className="w-5 h-5 rounded-full bg-[#FF5E5E]"></p>
         <p>24 Hour Services</p>
       </div>
