@@ -10,7 +10,7 @@ export const NavLink = [
 
 export default function Navbar() {
   return (
-    <header className="bg-primary-dark text-neutral-white w-full py-5 px-7">
+    <header className="bg-primary-dark text-neutral-white w-full py-5 px-5">
       <Mobile />
       <Desktop />
     </header>
