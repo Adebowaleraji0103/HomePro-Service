@@ -5,7 +5,7 @@ export default function Mobile() {
     <section className="flex justify-between items-center  lg:hidden">
       {Logo.map((card, index) => (
         <div key={index} className="flex gap-4 items-center">
-          <img src={card.image} alt="" />
+          <img src={card.image} alt="" className="object-contain size-8" />
           <h1> {card.name}</h1>
         </div>
       ))}
