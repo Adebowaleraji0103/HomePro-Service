@@ -32,7 +32,7 @@
   --color-primary-dark: var(--primary-dark-blue-1);
   --color-neutral-white: var(--neutral-white);
   --color-neutral-grey-2: var(--neutral-grey-2);
-
+  /* --bg-system-red: var(--system-red); */
   --bg-system-red: var(--system-red);
 
   --font-sans: var(--font-plus-jakarta);
@@ -51,8 +51,8 @@ body {
   font-family: var(--font-san);
 }
 h1 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 600;
 }
 h2 {
   font-size: 25px;
